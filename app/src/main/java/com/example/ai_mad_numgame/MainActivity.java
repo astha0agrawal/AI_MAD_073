@@ -80,13 +80,13 @@ public class MainActivity extends AppCompatActivity {
         String operator = operators[random.nextInt(4)];
         textView2.setText(operand1 + operator + operand2);
 
-        if(operators.equals("+")){
+        if(operator.equals("+")){
             correctans = operand1 + operand2;
         }
-        else if(operators.equals("-")){
+        else if(operator.equals("-")){
             correctans=operand1 - operand2;
         }
-        else if(operators.equals("/")){
+        else if(operator.equals("/")){
             correctans=operand1 / operand2;
         }
         else{
